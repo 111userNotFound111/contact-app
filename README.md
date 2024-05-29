@@ -28,6 +28,7 @@ Thank you for review my application
 
 ## Program Structure
 **Structure**
+Within the src folder:  
 - components : All components used for this application
 - pages : All pages developed
 - ultilities : important functions for AJAX such as callAPI 
