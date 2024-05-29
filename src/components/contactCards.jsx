@@ -22,16 +22,16 @@ export default function ContactCard ({ contact }) {
                 </div>
             </div>
 
-            <p><strong>Username:</strong> {contact.username}</p>
             <p><strong>Email:</strong> {contact.email}</p>
             <p><strong>Phone:</strong> {contact.phone}</p>
             <p><strong>Website:</strong> <a href={`http://${contact.website}`}>{contact.website}</a></p>
+            <p><strong>Company:</strong> {contact.company.name}</p>
+            <br />
             <address>
                 <strong>Address:</strong><br />
                 {contact.address.suite}, {contact.address.street},<br />
                 {contact.address.city}, {contact.address.zipcode}
             </address>
-            <p><strong>Company:</strong> {contact.company.name}</p>
         </div>
     )
 }

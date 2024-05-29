@@ -1,7 +1,5 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Button from '@mui/material/Button'
-import AutoGraphIcon from '@mui/icons-material/AutoGraph'
 import './landing.css'
 import NavBar from '../../components/navBar.jsx'
 
@@ -23,8 +21,7 @@ function Landing () {
         <section className="content-section">
           <div className="landing-container-inner">
             <div className="text-center">
-              <h2>Welcome to Home Page, please log in to Contact</h2>
-              <br /><br />
+              <h1>Welcome To Contact App, Please Login </h1>
             </div>
           </div>
         </section>
