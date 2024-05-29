@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    height: 77%;
+    flex-grow: 1;
+}
+
+.side-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f2ee;
+    width: 10%;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+}
+
+
+/* responsive screeen */
+/* phone */
+@media (max-width: 500px) {
+    .content-section {
+        width: 75%;
+    }
+}
+/* tablet */
+@media (min-width: 526px) and (max-width: 800px) {
+    .content-section {
+        width: 75%;
+    }
+}
+/* pc */
+@media (min-width: 1200px) {
+    .content-section {
+        width: 1200px;
+    }
+}

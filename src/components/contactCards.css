@@ -1,0 +1,74 @@
+.contact-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 70%;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+.contact-card h2 {
+    margin-top: 0;
+}
+
+.contact-card a {
+    color: #007bff;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-mod {
+    display: flex;
+    gap: 15px;
+}
+
+/* responsive window for different devices */
+/* phone */
+@media (max-width: 525px) {
+    .contact-card {
+        font-size: 0.7rem;
+    }
+    .card-mod {
+        gap: 0px;
+    }
+    .icon-btm .MuiSvgIcon-root {
+        font-size: 0.8rem;
+    }
+}
+/* tablet */
+@media (min-width: 526px) and (max-width: 800px) {
+    .contact-card {
+        font-size: 0.8rem;
+    }
+    .card-mod {
+        gap: 10px;
+    }
+    .icon-btm .MuiSvgIcon-root {
+        font-size: 1.5rem;
+    }
+}
+/* pc */
+@media (min-width: 1200px) {
+    .contact-card {
+        font-size: 1rem;
+    }
+    .card-mod {
+        gap: 15px;
+    }
+    .icon-btm .MuiSvgIcon-root {
+        font-size: 2rem;
+    }
+}

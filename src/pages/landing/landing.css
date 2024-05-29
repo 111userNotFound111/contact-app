@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-logo {
+    color: white;
+}
+
+.landing-logo-title {
+    margin-left: 10px;
+}
+
+.landing-top-bar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding: 0 2%;
+}
+
+
+.landing-container-inner {
+    text-align: center;
+}
+
+.landing-button {
+    background-color: white;
+    color: #1976D2;
+    height: 60%;
+    width: 20%;
+    font-size: calc(0.8vw + 0.8vh);
+}
+
+.main-container {
+    display: flex;
+    height: 77%;
+    flex-grow: 1;
+}
+
+.side-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f2ee;
+    width: 10%;
+}
+

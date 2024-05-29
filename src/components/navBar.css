@@ -1,0 +1,46 @@
+.landing-logo {
+    color: white;
+}
+
+.landing-logo-title {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.app-bar {
+    background-color: blue;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+.icon-btm-content {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 525px) {
+    .landing-logo-title {
+        display: none;
+    }
+
+    .icon-btm-content {
+        display: none;
+    }
+
+}
+
+@media (min-width: 526px) and (max-width: 800px) {
+    .icon-btm-content {
+        font-size: 0.8rem;
+    }
+
+}

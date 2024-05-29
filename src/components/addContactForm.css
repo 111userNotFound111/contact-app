@@ -1,0 +1,42 @@
+.container {
+    margin-top: 2rem;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-title{
+    font-size: 2rem;
+}
+
+#addContact-btm {
+    width: 200px;
+}
+
+/* change form size for responsive screen */
+/* phone */
+@media (max-width: 525px) {
+    .container {
+        width: 100%;
+    }
+    .MuiTextField-root {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    #addContact-btm {
+        font-size: 0.8rem;
+        width: 100px;
+    }
+    .addContact-btm-content{
+        font-size: 0.7rem;
+    }
+    .form-title{
+        font-size: 0.5rem;
+    }
+}
